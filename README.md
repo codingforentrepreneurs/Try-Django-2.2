@@ -11,8 +11,12 @@
     - https://www.sublimetext.com/
 
 - Reference Guides
-    - System Setup
+    - Getting started with CFE
         - https://kirr.co/gyxlmi
+    - System Setup
+        - Windows: https://kirr.co/6r8wr9
+        - Mac: https://kirr.co/386c7f
+        - Linux: https://kirr.co/c3uvuu
     - Blank Django Project
         - https://kirr.co/z7s6ls
 
