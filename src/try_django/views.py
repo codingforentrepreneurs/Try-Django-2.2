@@ -3,6 +3,10 @@ from django.shortcuts import render
 from django.template.loader import get_template
 # Dont Repeat Yourself = DRY
 
+from .forms import ContactForm
+
+
+
 def home_page(request):
     my_title = "Hello there...."
     context = {"title": "my title"}
@@ -17,8 +21,15 @@ def about_page(request):
 
 
 def contact_page(request):
-    print(request.POST)
-    return render(request, "form.html", {"title": "Contact us"})
+    form = ContactForm(request.POST or None)
+    if form.is_valid():
+        print(form.cleaned_data)
+        form = ContactForm()
+    context = {
+        "title": "Contact us", 
+        "form": form
+    }
+    return render(request, "form.html", context)
 
 
 
