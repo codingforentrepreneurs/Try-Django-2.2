@@ -607,11 +607,12 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/cfe/Dev/try_django",
-		"/Users/cfe/Dev/try_django/src"
+		"/Users/cfe/Dev/try_django"
 	],
 	"file_history":
 	[
+		"/Users/cfe/Dev/try_django/.gitignore",
+		"/Users/cfe/Dev/try_django/README.md",
 		"/Users/cfe/Dev/try_django_2_2/Pipfile",
 		"/Volumes/CFE_2019/CFE Projects/Current/Survey with React/Notes/renderingInputs.js",
 		"/Users/cfe/Dev/survey/survey-app/public/index.html",
@@ -737,9 +738,7 @@
 		"/Users/cfe/Dropbox/CFE Projects/tests/src/cfeapi/settings.py",
 		"/Users/cfe/Dropbox/CFE Projects/tests/client/cfe-rest-client/src/app/status-create/status-create.component.html",
 		"/Users/cfe/Dropbox/CFE Projects/tests/client/cfe-rest-client/src/app/status-create/status-create.component.ts",
-		"/Users/cfe/Dropbox/CFE Projects/tests/client/cfe-rest-client/src/app/app-routing.module.ts",
-		"/Users/cfe/Dropbox/CFE Projects/tests/client/cfe-rest-client/src/app/status-detail/status-detail.component.ts",
-		"/Volumes/CFE/CFE Projects/Current/Rest API/Sections/3 - Django Rest Framework API/Tests/test_rest_api.py"
+		"/Users/cfe/Dropbox/CFE Projects/tests/client/cfe-rest-client/src/app/app-routing.module.ts"
 	],
 	"find":
 	{
