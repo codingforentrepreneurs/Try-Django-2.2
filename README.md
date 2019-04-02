@@ -3,35 +3,46 @@
 
 ### Getting Started
 
-- Python 3.6+ installed
-    - https://www.python.org/
-    - A virtual environment (pipenv or virtualenv)
+#### Requirements
+    - Python 3.6 & up
+    - Virtual Environment (pipenv or virtualenv)
 
-- Text Editor for Code
-    - https://www.sublimetext.com/
-
-- Reference Guides
-    - Getting started with CFE
-        - https://kirr.co/gyxlmi
-    - System Setup
-        - Windows: https://kirr.co/6r8wr9
-        - Mac: https://kirr.co/386c7f
-        - Linux: https://kirr.co/c3uvuu
-    - Blank Django Project
-        - https://kirr.co/z7s6ls
-
-- Related Code (this page)
-    - https://kirr.co/0a7z1n
-
-
-- Recommended Start
+#### Recommended Prerequisites
     - Coding with macOS (course)
         - https://cfe.sh/courses/coding-with-macOS
     - 30 Days of Python (project)
         - https://cfe.sh/projects/30-days-python
-        
-- Other Helpful Series
     - Getting Started with HTML & CSS (project)
         - https://cfe.sh/projects/getting-started-html-css
     - Bootstrap Basics (project)
         - https://cfe.sh/projects/bootstrap-basics-v4-3
+
+
+#### 1. Setup your System
+    - Windows: https://kirr.co/6r8wr9
+    - Mac: https://kirr.co/386c7f
+    - Linux: https://kirr.co/c3uvuu
+
+
+#### 2. Create Virtual Environment & Install Django
+```
+cd /path/to/dev/folder
+pipenv --python 3.6 install django==2.2
+```
+
+#### 3. Setup Project in Sublime Text
+I've used Sublime Text for a long time. This is optional but recommended as you work through the videos. Download it on https://www.sublimetext.com/
+
+
+
+#### Reference & Guides
+- Getting started with CFE
+    - https://kirr.co/gyxlmi
+- System Setup
+    - Windows: https://kirr.co/6r8wr9
+    - Mac: https://kirr.co/386c7f
+    - Linux: https://kirr.co/c3uvuu
+- Blank Django Project
+    - https://kirr.co/z7s6ls 
+- Official Code Repo
+    - https://kirr.co/0a7z1n
