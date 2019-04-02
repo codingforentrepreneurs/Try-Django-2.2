@@ -28,11 +28,18 @@
 ```
 cd /path/to/dev/folder
 pipenv --python 3.6 install django==2.2
+pipenv shell
+```
+#### 3. Create Django Project
+```
+cd /path/to/dev/folder
+mkdir src
+cd src
+django-admin startproject try_django .
 ```
 
-#### 3. Setup Project in Sublime Text
+#### 4. Setup Project in Sublime Text
 I've used Sublime Text for a long time. This is optional but recommended as you work through the videos. Download it on https://www.sublimetext.com/
-
 
 
 #### Reference & Guides
