@@ -4,24 +4,24 @@
 ### Getting Started
 
 #### Requirements
-    - Python 3.6 & up
-    - Virtual Environment (pipenv or virtualenv)
+- Python 3.6 & up
+- Virtual Environment (pipenv or virtualenv)
 
 #### Recommended Prerequisites
-    - Coding with macOS (course)
-        - https://cfe.sh/courses/coding-with-macOS
-    - 30 Days of Python (project)
-        - https://cfe.sh/projects/30-days-python
-    - Getting Started with HTML & CSS (project)
-        - https://cfe.sh/projects/getting-started-html-css
-    - Bootstrap Basics (project)
-        - https://cfe.sh/projects/bootstrap-basics-v4-3
+- Coding with macOS (course)
+    - https://cfe.sh/courses/coding-with-macOS
+- 30 Days of Python (project)
+    - https://cfe.sh/projects/30-days-python
+- Getting Started with HTML & CSS (project)
+    - https://cfe.sh/projects/getting-started-html-css
+- Bootstrap Basics (project)
+    - https://cfe.sh/projects/bootstrap-basics-v4-3
 
 
 #### 1. Setup your System
-    - Windows: https://kirr.co/6r8wr9
-    - Mac: https://kirr.co/386c7f
-    - Linux: https://kirr.co/c3uvuu
+- Windows: https://kirr.co/6r8wr9
+- Mac: https://kirr.co/386c7f
+- Linux: https://kirr.co/c3uvuu
 
 
 #### 2. Create Virtual Environment & Install Django
