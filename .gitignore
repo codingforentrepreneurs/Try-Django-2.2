@@ -1,5 +1,6 @@
 .DS_Store
-
+static_cdn_test/static/
+static_cdn_test/media/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
