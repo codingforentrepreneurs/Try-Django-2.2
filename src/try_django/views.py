@@ -4,14 +4,13 @@ from django.template.loader import get_template
 # Dont Repeat Yourself = DRY
 
 from .forms import ContactForm
-
+from blog.models import BlogPost
 
 
 def home_page(request):
     my_title = "Hello there...."
-    context = {"title": "my title"}
-    if request.user.is_authenticated:
-        context = {"title": my_title, "my_list": [1, 2, 3, 4, 5]}
+    qs = BlogPost.objects.all()[:5]
+    context = {"title": "Welcome to Try Django", 'blog_list': qs}
     return render(request, "home.html", context)
 
 

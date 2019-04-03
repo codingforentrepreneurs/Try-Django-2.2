@@ -12,17 +12,9 @@
   </head>
   <body>
     {% include 'navbar.html' %}
-    <div class='container'>
-        <div class='row'>
-            <div class='col-6 mx-auto'>
-                {% block content %}
-
-
-
-
-                {% endblock %}
-            </div>
-        </div>
+    <div class='container-fluid'>
+         {% block content %}
+            {% endblock %}
     </div>
 
     {% include 'js.html' %}
