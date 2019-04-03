@@ -35,7 +35,7 @@ def blog_post_create_view(request):
     # create objects
     # ? use a form
     # request.user -> return something
-    form = BlogPostModelForm(request.POST or None)
+    form = BlogPostModelForm(request.POST or None, request.FILES or None)
     if form.is_valid():
         obj = form.save(commit=False)
         obj.user = request.user
