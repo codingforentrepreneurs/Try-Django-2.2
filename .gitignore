@@ -5,7 +5,7 @@ static_cdn_test/media/
 __pycache__/
 *.py[cod]
 *$py.class
-
+parse.py
 # C extensions
 *.so
 
