@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+
+<div class='row'>
+    <div class='col-12 col-8 mx-auto'>
+        {% if query %}
+
+            <p class='lead'>You searched for {{ query }}</p>
+    {% else %}
+
+        <form class="form-inline my-2 my-lg-0" action='/search/'>
+      <input class="form-control mr-sm-2" type="search" name='q' placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+
+    
+    {% endif %}
+
+
+
+    </div>
+
+
+</div>
+
+{% endblock %}
